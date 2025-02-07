@@ -5,6 +5,8 @@
 # Technically n squared but way faster than any default sort algorithm.
 # we're only doing multiplications and comparisons of numbers.
 
+# and trust me, computers are good at multiplying and if-else statements!
+
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         letterToPrime = {
@@ -23,17 +25,17 @@ class Solution:
             "m": 41,
             "n": 43,
             "o": 47,
-            "p": 89,
-            "q": 53,
-            "r": 97,
-            "s": 59,
-            "t": 61,
-            "u": 67,
-            "v": 71,
-            "w": 73,
-            "x": 79,
-            "y": 83,
-            "z": 87
+            "p": 53,
+            "q": 59,
+            "r": 61,
+            "s": 67,
+            "t": 71,
+            "u": 73,
+            "v": 79,
+            "w": 83,
+            "x": 87,
+            "y": 89,
+            "z": 97
         }
 
         result = {}
