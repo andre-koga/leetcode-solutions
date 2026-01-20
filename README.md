@@ -1,6 +1,6 @@
 My solutions for some LeetCode problems. These are my own solutions, but some of them might rely on hints or partial explanations.
 
-Most of the solutions are written in Java or Python.
+Most of the solutions are written in Python3.
 
 Notable original solutions:
 
