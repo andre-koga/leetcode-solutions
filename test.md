@@ -1,6 +1,5 @@
 testing
 
-my name is krongler
-
+my name is just koga actually!
 
 or is it?
