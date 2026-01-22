@@ -29,8 +29,6 @@ class Solution:
         for i in range(n):
             digit = (k - 1) // math.factorial(n - i - 1)
             digit = digit % len(digits)
-            chosen = digits[digit]
-            print("chosen", digit, digits[digit])
             result.append(str(digits[digit]))
             digits.remove(digits[digit])
 
