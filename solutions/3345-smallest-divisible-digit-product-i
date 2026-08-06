@@ -1,0 +1,16 @@
+class Solution:
+    def smallestNumber(self, n: int, t: int) -> int:
+        # 0 in the units always works so we just gotta go all the way there
+        # barely any tests required, it is guaranteed to work
+
+        preMult = 1
+        preN = n // 10 # we remove the first digit because it will be selected later
+        while preN > 0:
+            preMult *= preN % 10 # grabs the units digit
+            preN = preN // 10
+
+        firstD = n % 10
+
+        for d in range(firstD, firstD + 10):
+            if (preMult * (d % 10)) % t == 0:
+                return n + d - firstD
