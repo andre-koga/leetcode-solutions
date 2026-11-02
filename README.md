@@ -10,3 +10,4 @@ Notable original solutions:
 - [49 - Group Anagrams](https://github.com/andre-koga/leetcode-solutions/blob/main/solutions/0049-group-anagrams.py), beats 98% of submissions with a lengthy but creative solution involving prime numbers
 - [55 - Jump Game](https://github.com/andre-koga/leetcode-solutions/blob/main/solutions/0055-jump-game.py), has a two-pointer intuitive and original approach that beats ~90% of solutions
 - [2897 - Apply Operations on Array to Maximize Sum of Squares (a mouthful!)](https://github.com/andre-koga/leetcode-solutions/blob/main/solutions/2897-apply-operations-on-array-to-maximize-sum-of-squares.py), hard problem with a elegant invariance that leads to an unexpectedly simple solution
+- [462 - Minimum Moves To Equal Array Elements II](https://github.com/andre-koga/leetcode-solutions/blob/main/solutions/0462-minimum-moves-to-equal-array-elements-ii.py), solved it in 5 mins so I'm proud
